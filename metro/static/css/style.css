@@ -1,0 +1,96 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: rgb(107, 102, 102);
+}
+
+
+.train{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7rem;
+}
+
+.train .navbar  h1{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+.train .navbar nav{
+    margin: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.train .navbar nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.train .navbar nav a:hover{
+    color: wheat;
+}
+.train-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.train-container .destination{
+    margin: 3px;
+}
+.train-container .horaire{
+    margin: 3px;
+}
+.plan button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+ .plan button a{
+    text-decoration: none;
+    color: black;
+    border: none;
+    transition: all 0.4s ease;
+    margin: 2px;
+}
+ .plan button a:hover{
+    color: white;
+}
+.train .navbar .recherche input{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.trains h1{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoTrains{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px ;
+}
+
+.infoTrains h1{
+    color: wheat;
+    font-size: 1.95em;
+}
+.infoTrains p{
+    font-size: 1.40rem;
+    color:rgb(242, 203, 130)
+}
+.infoTrains img{
+   width: 690px;
+   margin: 30px; 
+}

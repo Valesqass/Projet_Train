@@ -1,0 +1,13 @@
+{% extends "metro/index.html"%}
+{% load static %}
+
+{% block content %}
+<div class="infoTrains">
+<h1>Train # {{ train.id }}</h1>
+<p>Destination: {{ train.destination }}</p>
+<p>Départ du train : {{ train.datetime }}</p>
+<img src="{% static train.plan %}">
+</div>
+
+
+{% endblock %}

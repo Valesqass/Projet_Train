@@ -1,0 +1,15 @@
+{% extends "metro/base.html"%}
+
+{% block content %}
+<div class="trains">
+    <h1>Trains aujourd'hui</h1>
+</div>
+{% for train in trains %}
+<div class="train-container">
+    <div class="destination">{{ train.destination }}</div>
+    <div class="horaire">{{ train.datetime }}</div>
+</div>
+<div class="plan"><button><a href="http://localhost:8000/metro/train-info-{{train.id}}">Voir plan</a></button></div>
+
+{% endfor %}
+{% endblock %}
